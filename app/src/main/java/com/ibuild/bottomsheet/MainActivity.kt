@@ -29,13 +29,14 @@ class MainActivity : AppCompatActivity() {
         var number =  view.findViewById<TextView>(R.id.userNum)
         var ticketTypeValue =  view.findViewById<TextView>(R.id.ticketTypeValue)
         var seatValue =  view.findViewById<TextView>(R.id.seatValue)
+        //set data here
 
-        Glide.with(this).load("imageUrlFromWeb").into(image) //get user image put it at imageUrlFromWeb
-
-        name.text = "" //get user name
-        number.text="" //get user number
-        ticketTypeValue.text="" //get ticket  type
-        seatValue.text="" //get seat  value
+//        Glide.with(this).load("imageUrlFromWeb").into(image) //get user image put it at imageUrlFromWeb
+//
+//        name.text = "" //get user name
+//        number.text="" //get user number
+//        ticketTypeValue.text="" //get ticket  type
+//        seatValue.text="" //get seat  value
 
         dialog.setCancelable(false)
         dialog.setContentView(view)
